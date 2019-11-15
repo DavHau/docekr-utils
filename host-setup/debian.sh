@@ -19,4 +19,4 @@ docker run hello-world
 compose_bin=/usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o $compose_bin
 chmod +x $compose_bin
-ln -s /usr/local/bin/dco $compose_bin
+ln -s $compose_bin /usr/local/bin/dco
